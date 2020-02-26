@@ -1,10 +1,11 @@
 import React from 'react';
 import Slider from './Slider';
-import Menu from './Menu';
+import Skills from './Skills';
 function Body(){
     return(
         <div role="main" className="main">
                 <Slider/>
+                <Skills/>
         </div>
     )
 }
